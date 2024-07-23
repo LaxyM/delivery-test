@@ -5,9 +5,14 @@ import './Home.css'
 
 const Home = () => {
 	return (
-		<div>
-			<Header/>
-		</div>
+		<>
+			<div>
+				<Header />
+			</div>
+			<div className='main-page'>
+				{/* тут будет вся страница */}
+			</div>
+		</>
 	)
 }
 
