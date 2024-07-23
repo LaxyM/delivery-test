@@ -1,11 +1,9 @@
-
-
 function App() {
 
 
   return (
     <>
-      
+      <h2>Hi</h2>
     </>
   )
 }
