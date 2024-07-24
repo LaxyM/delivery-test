@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../../components/Header/Header'
 import './Home.css'
+import TipsBlock from '../../components/TipsBlock/TipsBlock'
 
 const Home = () => {
 	return (
@@ -10,6 +11,8 @@ const Home = () => {
 				<Header />
 			</div>
 			<div className='main-page'>
+				<TipsBlock/>
+				<Footer/>
 				{/* тут будет вся страница */}
 			</div>
 		</>
