@@ -12,7 +12,6 @@ const Home = () => {
 			</div>
 			<div className='main-page'>
 				<TipsBlock/>
-				<Footer/>
 				{/* тут будет вся страница */}
 			</div>
 		</>
