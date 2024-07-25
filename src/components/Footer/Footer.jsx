@@ -46,7 +46,9 @@ const Footer = () => {
             <li className={location.pathname === "/" ? "active" : ""}>
               <Link to="/">Home</Link>
             </li>
-            <li><Link to="/about">About us</Link></li>
+            <li className={location.pathname === "/about" ? "active" : ""}>
+              <Link to="/about">About us</Link>
+            </li>
             <li><Link to="/menu">Menu</Link></li>
             <li><Link to="/restaurants">Restaurants</Link></li>
           </ul>
